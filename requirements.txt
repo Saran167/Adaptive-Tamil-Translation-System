@@ -1,9 +1,6 @@
 streamlit
 transformers
-torch
 sentencepiece
-gtts
+torch==2.1.2
 langdetect
-reportlab
-pandas
-numpy
+gtts
