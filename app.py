@@ -28,7 +28,7 @@ pdfmetrics.registerFont(UnicodeCIDFont("HeiseiMin-W3"))
 # --------------------------------------------------
 @st.cache_resource
 def load_model():
-    model_name = "Helsinki-NLP/opus-mt-mul-ta"
+    model_name = "Helsinki-NLP/opus-mt-en-ta"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
     return tokenizer, model
