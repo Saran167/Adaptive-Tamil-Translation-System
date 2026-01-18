@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+sentencepiece
+gtts
+langdetect
+reportlab
+pandas
+numpy
